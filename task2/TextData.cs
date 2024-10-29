@@ -20,8 +20,8 @@ public class TextData
         LongestWord = getLongestWord(Text);
     }
 
-    private string fileName()=>FileName;
-    private string getText()=>Text;
+    public string fileName()=>FileName;
+    public string getText()=>Text;
     private int getNumberOfVowels(string text)
     {
         return text.Count(c => "AEIOUaeiou".Contains(c));
